@@ -1,5 +1,5 @@
 import Card from '../components/Page1/Card';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Page1/Navbar';
 
 function Page1() {
     return (
