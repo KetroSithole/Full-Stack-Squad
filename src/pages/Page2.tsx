@@ -7,13 +7,15 @@ export default function Page2() {
     return (
         <div>
             <Navbar />
-            <div className='flex flex-row w-full'>
-                <div>
-                    <ShortTile />
-                    <Signup />
-                </div>
-                <div>
-                    <EducationalPicture />
+            <div className="m-20">
+                <div className='flex flex-row w-full'>
+                    <div className="w-1/2">
+                        <ShortTile />
+                        <Signup />
+                    </div>
+                    <div className="w-1/2">
+                        <EducationalPicture />
+                    </div>
                 </div>
             </div>
         </div>
