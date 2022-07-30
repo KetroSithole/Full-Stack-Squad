@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/CSS/page5.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<title>Page 5</title>
+</head>
+<body style="
+	max-width: 1366px;
+	width: 95%;
+	margin: auto;
+">
+	<div id="title" class="fs-1">Title</div>
+
+	<div id="categories">
+		<div class="category">
+			<button type="button" class="btn btn-light" >Category 1</button>
+		</div>
+		<div class="category">
+			<button type="button" class="btn btn-light">Category 2</button>
+		</div>
+		<div class="category">
+			<button type="button" class="btn btn-light">Category 3</button>
+		</div>
+		<div class="category">
+			<button type="button" class="btn btn-light">Category 4</button>
+		</div>
+		<div class="category">
+			<button type="button" class="btn btn-light">Category 5</button>
+		</div>
+	</div>
+
+	<div id="slide-show">
+
+		<div class="slide-button">
+			<button type="button" class="btn rounded-cirle">
+				<i class="bi bi-caret-left" style="font-size: 70px;"></i>
+			</button>
+		</div>
+
+		<div id="midGround">
+
+			<div class="card" style="width: 15rem;">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Math Teacher's pciture</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+			  
+				<div class="card-body contentInfo">
+				  <h5 class="card-title">Math Teacher</h5>
+				  <p class="card-text">Math teacher's few words</p>
+				  <a href="#" class="btn btn-primary">Bio</a>
+				</div>
+			</div>
+
+			<div class="card" style="width: 15rem;">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Tech Teacher's pciture</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+			  
+				<div class="card-body contentInfo">
+				  <h5 class="card-title">Technology Teacher</h5>
+				  <p class="card-text">Tech teacher's few words</p>
+				  <a href="#" class="btn btn-primary">Bio</a>
+				</div>
+			</div>
+
+			<div class="card" style="width: 15rem;">
+				<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Science Teacher's pciture</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+			  
+				<div class="card-body contentInfo">
+				  <h5 class="card-title">Science Teacher</h5>
+				  <p class="card-text">Science teacher's few words</p>
+				  <a href="#" class="btn btn-primary">Bio</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="slide-button">
+			<button type="button" class="btn rounded-cirle">
+				<i class="bi bi-caret-right" style="font-size: 70px;"></i>
+			</button>
+		</div>
+	</div>
+
+	<div class="random-stuff">
+		<div>
+		some stuff related to whatever is here
+		</div>
+	</div>
+
+   
+	<div class="carousel" style="width: 1000px; margin: auto;">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+		<div class="carousel-indicators">
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+
+			<video class="img-fluid" autoplay loop muted>
+			  <source src="/Media/maths.mp4" type="video/mp4" />
+			</video>
+	  
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Numbers</h5>
+			  <p>Math is Fun</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+
+			<video class="img-fluid" autoplay loop muted>
+				<source src="/Media/tech.mp4" type="video/mp4" />
+			</video>
+
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>Artificial Reality</h5>
+			  <p>Tech is Fun</p>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+
+			<video class="img-fluid" autoplay loop muted>
+				<source src="/Media/science.mp4" type="video/mp4" />
+			</video>
+
+			<div class="carousel-caption d-none d-md-block">
+			  <h5>DNA!</h5>
+			  <p>Science is fun</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  </div>
+	  
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

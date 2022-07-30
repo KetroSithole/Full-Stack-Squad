@@ -1,0 +1,44 @@
+body {
+	max-width: 1366px;
+	width: 95%;
+	margin: auto;
+}
+
+#title {
+	height: 2em;
+}
+
+#categories {
+	display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	padding: 1em;
+}
+
+#slide-show {
+	display: inline-grid;
+	grid-template-columns: 10% 80% 10%;
+	width: 100%;
+}
+
+#midGround {
+    display: flex;
+    justify-content: space-around;
+	padding: 3em;
+}
+
+.random-stuff {
+	padding: 5em;
+	margin: 5em;
+	display: flex;
+	
+    justify-content: space-around;
+	
+}
+
+.slide-button{
+	display: flex;
+	margin: auto;
+	align-items: center;
+	display: flex;
+}
