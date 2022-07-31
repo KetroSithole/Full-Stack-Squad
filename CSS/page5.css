@@ -1,5 +1,7 @@
 #title {
 	height: 2em;
+	color: white;
+	text-align: center;
 }
 
 #categories {
@@ -7,6 +9,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
 	padding: 1em;
+	color: white;
 }
 
 #slide-show {
